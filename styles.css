@@ -257,7 +257,6 @@ cursor: pointer;
 /* Footer Style Start*/
 
 footer {
-  display: flex;
   padding: 1rem 2rem ;
   color: white;
 }
@@ -305,11 +304,6 @@ border-bottom: 1px solid darkgray;
 width: 25%;
 }
 
-.footer-2 {
-  display: flex;
-  justify-content: space-around;
-}
-
 .footer-times {
   font-size: 12px;
   list-style: none;
@@ -325,10 +319,9 @@ width: 25%;
 }
 
 .footer-map {
-  display: flex;
-  max-width: 500px;
-  justify-content: flex-end;
+  display: inline-flex;
   width: 50%;
+  display: block;
   margin: 1rem auto;
 }
 
